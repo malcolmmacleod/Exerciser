@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5D05221B6B60F000D074C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5D05211B6B60F000D074C8 /* MapKit.framework */; };
+		3C6AAB931B6BFEA00051DCC0 /* RepetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AAB921B6BFEA00051DCC0 /* RepetitionsViewController.swift */; };
+		3C6E4D081B6B959500552B2D /* GPX.Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E4D071B6B959500552B2D /* GPX.Waypoint.swift */; };
+		3C6E4D0A1B6B960200552B2D /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E4D091B6B960200552B2D /* GPX.swift */; };
+		3C6E4D0C1B6B98A900552B2D /* ExerciseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E4D0B1B6B98A900552B2D /* ExerciseLocation.swift */; };
+		3C6E4D101B6B9BDC00552B2D /* ExerciseLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E4D0F1B6B9BDC00552B2D /* ExerciseLocationTableViewController.swift */; };
+		3C6E4D121B6BB02600552B2D /* ExerciseSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E4D111B6BB02600552B2D /* ExerciseSelectionTableViewController.swift */; };
 		3C78A0DC1B6A42E90087BC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78A0DB1B6A42E90087BC7B /* AppDelegate.swift */; };
-		3C78A0DE1B6A42E90087BC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78A0DD1B6A42E90087BC7B /* ViewController.swift */; };
 		3C78A0E11B6A42E90087BC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C78A0DF1B6A42E90087BC7B /* Main.storyboard */; };
 		3C78A0E31B6A42E90087BC7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C78A0E21B6A42E90087BC7B /* Images.xcassets */; };
 		3C78A0E61B6A42E90087BC7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C78A0E41B6A42E90087BC7B /* LaunchScreen.xib */; };
 		3C78A0F21B6A42E90087BC7B /* ExerciserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78A0F11B6A42E90087BC7B /* ExerciserTests.swift */; };
+		3C78A0FE1B6A43630087BC7B /* ExerciseLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78A0FD1B6A43630087BC7B /* ExerciseLocationViewController.swift */; };
+		3CBC9D1F1B79521A00CAB180 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBC9D1E1B79521A00CAB180 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C5D05211B6B60F000D074C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3C6AAB921B6BFEA00051DCC0 /* RepetitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepetitionsViewController.swift; sourceTree = "<group>"; };
+		3C6E4D071B6B959500552B2D /* GPX.Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.Waypoint.swift; sourceTree = "<group>"; };
+		3C6E4D091B6B960200552B2D /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		3C6E4D0B1B6B98A900552B2D /* ExerciseLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseLocation.swift; sourceTree = "<group>"; };
+		3C6E4D0F1B6B9BDC00552B2D /* ExerciseLocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseLocationTableViewController.swift; path = ../ExerciseLocationTableViewController.swift; sourceTree = "<group>"; };
+		3C6E4D111B6BB02600552B2D /* ExerciseSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseSelectionTableViewController.swift; sourceTree = "<group>"; };
 		3C78A0D61B6A42E90087BC7B /* Exerciser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exerciser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C78A0DA1B6A42E90087BC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C78A0DB1B6A42E90087BC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C78A0DD1B6A42E90087BC7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C78A0E01B6A42E90087BC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C78A0E21B6A42E90087BC7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C78A0E51B6A42E90087BC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C78A0EB1B6A42E90087BC7B /* ExerciserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C78A0F01B6A42E90087BC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C78A0F11B6A42E90087BC7B /* ExerciserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciserTests.swift; sourceTree = "<group>"; };
+		3C78A0FD1B6A43630087BC7B /* ExerciseLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseLocationViewController.swift; sourceTree = "<group>"; };
+		3CBC9D1E1B79521A00CAB180 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBC9D1F1B79521A00CAB180 /* CoreLocation.framework in Frameworks */,
+				3C5D05221B6B60F000D074C8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +77,8 @@
 		3C78A0CD1B6A42E90087BC7B = {
 			isa = PBXGroup;
 			children = (
+				3CBC9D1E1B79521A00CAB180 /* CoreLocation.framework */,
+				3C5D05211B6B60F000D074C8 /* MapKit.framework */,
 				3C78A0D81B6A42E90087BC7B /* Exerciser */,
 				3C78A0EE1B6A42E90087BC7B /* ExerciserTests */,
 				3C78A0D71B6A42E90087BC7B /* Products */,
@@ -77,12 +97,15 @@
 		3C78A0D81B6A42E90087BC7B /* Exerciser */ = {
 			isa = PBXGroup;
 			children = (
-				3C78A0DB1B6A42E90087BC7B /* AppDelegate.swift */,
-				3C78A0DD1B6A42E90087BC7B /* ViewController.swift */,
+				3C6E4D0F1B6B9BDC00552B2D /* ExerciseLocationTableViewController.swift */,
+				3C6E4D111B6BB02600552B2D /* ExerciseSelectionTableViewController.swift */,
+				3C6E4D071B6B959500552B2D /* GPX.Waypoint.swift */,
+				3C6E4D091B6B960200552B2D /* GPX.swift */,
 				3C78A0DF1B6A42E90087BC7B /* Main.storyboard */,
-				3C78A0E21B6A42E90087BC7B /* Images.xcassets */,
-				3C78A0E41B6A42E90087BC7B /* LaunchScreen.xib */,
+				3C6AAB921B6BFEA00051DCC0 /* RepetitionsViewController.swift */,
 				3C78A0D91B6A42E90087BC7B /* Supporting Files */,
+				3C78A0FD1B6A43630087BC7B /* ExerciseLocationViewController.swift */,
+				3C6E4D0B1B6B98A900552B2D /* ExerciseLocation.swift */,
 			);
 			path = Exerciser;
 			sourceTree = "<group>";
@@ -90,6 +113,9 @@
 		3C78A0D91B6A42E90087BC7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C78A0DB1B6A42E90087BC7B /* AppDelegate.swift */,
+				3C78A0E41B6A42E90087BC7B /* LaunchScreen.xib */,
+				3C78A0E21B6A42E90087BC7B /* Images.xcassets */,
 				3C78A0DA1B6A42E90087BC7B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,11 +182,20 @@
 		3C78A0CE1B6A42E90087BC7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Malcolm Macleod";
 				TargetAttributes = {
 					3C78A0D51B6A42E90087BC7B = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3C78A0EA1B6A42E90087BC7B = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C78A0DE1B6A42E90087BC7B /* ViewController.swift in Sources */,
+				3C6E4D101B6B9BDC00552B2D /* ExerciseLocationTableViewController.swift in Sources */,
+				3C6E4D081B6B959500552B2D /* GPX.Waypoint.swift in Sources */,
+				3C6E4D0C1B6B98A900552B2D /* ExerciseLocation.swift in Sources */,
 				3C78A0DC1B6A42E90087BC7B /* AppDelegate.swift in Sources */,
+				3C78A0FE1B6A43630087BC7B /* ExerciseLocationViewController.swift in Sources */,
+				3C6E4D121B6BB02600552B2D /* ExerciseSelectionTableViewController.swift in Sources */,
+				3C6E4D0A1B6B960200552B2D /* GPX.swift in Sources */,
+				3C6AAB931B6BFEA00051DCC0 /* RepetitionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +452,7 @@
 				3C78A0F71B6A42E90087BC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C78A0F81B6A42E90087BC7B /* Build configuration list for PBXNativeTarget "ExerciserTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +461,7 @@
 				3C78A0FA1B6A42E90087BC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
